@@ -8,7 +8,7 @@ This project is a RESTful API for a course-selling platform. It includes separat
 - Users can browse, purchase, and view purchased courses.
 - Authentication using tokens for secure access to routes.
 
-## Routes
+## Routes:
 
 ### Admin Routes:
 
@@ -29,7 +29,7 @@ This project is a RESTful API for a course-selling platform. It includes separat
   Input: Headers: { 'Authorization': 'Bearer <your-token>' }
   Output: { courses: [ { id: 1, title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com', published: true }, ... ] }
 
-### User routes
+### User Routes:
 
 - POST /users/signup
   Description: Creates a new user account.
